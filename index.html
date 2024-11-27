@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous">
+
+    <!--Icono de boostrap-->
+    <link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="assets/code-slash.svg" type="image/x-icon">
+
+    <!--Archivo CSS-->
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <title>Daniela Barrientos</title>
+  </head>
+  <body>
+
+    <header>
+      <div class="container">
+        <header
+          class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+          <a href="/"
+            class="d-flex alhabign-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <!--Icono-->
+            <i class="bi bi-code-slash p-2"></i>
+            <span class="fs-4">Daniela Barrientos</span>
+          </a>
+
+          <ul class="nav nav-pills">
+            <li class="nav-item"><a id="boton-perfil" href="#" class="nav-link active"
+                aria-current="page">Perfil</a></li>
+            <li class="nav-item"><a href="#habilidades"
+                class="nav-link">Habilidades</a></li>
+            <li class="nav-item"><a href="#proyectos"
+                class="nav-link">Proyectos</a></li>
+            <li class="nav-item"><a href="#testimonios"
+                class="nav-link">Testimonios</a></li>
+            <li class="nav-item"><a href="#contacto"
+                class="nav-link">Contacto</a></li>
+          </ul>
+        </header>
+      </div>
+    </header>
+
+    <div class="hero">
+      <div class="px-4 py-5 my-5 text-center">
+        <img class="d-block mx-auto mb-4 rounded-circle"
+          src="assets/profile-picture.jpeg" alt width="200">
+        <h2 class="display-5 fw-bold text-body-emphasis">Daniela Barrientos
+          Correa</h2>
+        <div class="col-lg-6 mx-auto">
+          <h3 id="app"></h2>
+          <p class="lead mb-4">Ingeniera en Sistemas Computacionales graduada en
+            el año 2020 con especialidad en Sistemas de Información para la Toma
+            de Decisiones, con experiencia en desarrollo y mantenimiento de
+            bases de datos, así como creación y diseño de páginas web utilizando
+            diversas tecnológias cliente / servidor.</p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <button type="button"
+              class="btn btn-outline-secondary btn-lg px-4 boton-linkedin">LinkedIn</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Habilidades-->
+    <div class="caja-habilidades">
+    <div id="habilidades" class="habilidades container px-4 py-5"
+      id="hanging-icons habilidades">
+      <h2 class="pb-2 border-bottom">Habilidades</h2>
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="feature col">
+          <div
+            class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+            <i class="bi bi-front px-2 pb-1"></i>
+          </div>
+          <h3 class="fs-2 text-body-emphasis">Desarrollo Frontend</h3>
+          <p>Paragraph of text beneath the heading to explain the heading. We'll
+            add onto it with another sentence and probably just keep going until
+            we run out of words.</p>
+        </div>
+        <div class="feature col">
+          <div
+            class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+            <i class="bi bi-laptop px-2 pb-1"></i>
+          </div>
+          <h3 class="fs-2 text-body-emphasis">Diseño Responsivo</h3>
+          <p>Paragraph of text beneath the heading to explain the heading. We'll
+            add onto it with another sentence and probably just keep going until
+            we run out of words.</p>
+        </div>
+        <div class="feature col">
+          <div
+            class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+            <i class="bi bi-code px-2 pb-1"></i>
+          </div>
+          <h3 class="fs-2 text-body-emphasis">Consumo de APIs REST</h3>
+          <p>Paragraph of text beneath the heading to explain the heading. We'll
+            add onto it with another sentence and probably just keep going until
+            we run out of words.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!--Proyectos-->
+    <div>
+      <div class="album py-5 bg-body-tertiary">
+        <div id="proyectos" class="proyectos container mt-4">
+          <h2 class="pb-2 border-bottom">Proyectos</h2>
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col">
+              <div class="card shadow-sm">
+                <img class="bd-placeholder-img card-img-top"
+                  src="assets/pinterest.png" alt>
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text
+                    below as a natural lead-in to additional content. This
+                    content is a little bit longer.</p>
+                  <div
+                    class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button"
+                        class="btn btn-sm btn-outline-secondary btn-proyecto"><a
+                          target="_blank"
+                          href="https://pinterest-clon-alpha-dusky.vercel.app/">Ver</a></button>
+                      <button type="button"
+                        class="btn btn-sm btn-outline-secondary btn-proyecto"><a
+                          target="_blank"
+                          href="https://github.com/bacdaniela/pinterest-clon">Github</a></button>
+                    </div>
+                    <small class="text-body-secondary">HTML, CSS Y JS</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img class="bd-placeholder-img card-img-top"
+                  src="assets/miPrimerSitio.png" alt>
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text
+                    below as a natural lead-in to additional content. This
+                    content is a little bit longer.</p>
+                  <div
+                    class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button"
+                        class="btn btn-sm btn-outline-secondary"><a
+                          target="_blank">Ver</a></button>
+                      <button type="button"
+                        class="btn btn-sm btn-outline-secondary"><a
+                          target="_blank">Github</a></button>
+                    </div>
+                    <small class="text-body-secondary">HTML Y CSS</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img class="bd-placeholder-img card-img-top"
+                  src="assets/pinterest.png" alt>
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text
+                    below as a natural lead-in to additional content. This
+                    content is a little bit longer.</p>
+                  <div
+                    class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button"
+                        class="btn btn-sm btn-outline-secondary"><a
+                          target="_blank"
+                          href="https://pinterest-clon-alpha-dusky.vercel.app/">Ver</a></button>
+                      <button type="button"
+                        class="btn btn-sm btn-outline-secondary"><a
+                          target="_blank"
+                          href="https://github.com/bacdaniela/pinterest-clon">Github</a></button>
+                    </div>
+                    <small class="text-body-secondary">HTML, CSS Y JS</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Testimonios-->
+    <div id="testimonios" class="testimonios container mt-4">
+      <h2 class="pb-2 border-bottom">Testimonios</h2>
+      <div id="carouselExampleAutoplaying" class="carousel slide"
+        data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="d-flex justify-content-center">
+              <!--Card-->
+              <div class="card" style="width: 18rem;">
+                <img src="assets/imagen-1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Regina Mora</h5>
+                  <h6
+                    class="card-subtitle text-center mb-1 text-body-secondary">Gerente</h6>
+                  <p class="card-text">Some quick example text to build on the
+                    card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+              <!--Fin Card-->
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+              <!--Card-->
+              <div class="card" style="width: 18rem;">
+                <img src="assets/imagen-1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Regina Mora</h5>
+                  <h6
+                    class="card-subtitle text-center mb-1 text-body-secondary">Gerente</h6>
+                  <p class="card-text">Some quick example text to build on the
+                    card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+              <!--Fin Card-->
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+              <!--Card-->
+              <div class="card" style="width: 18rem;">
+                <img src="assets/imagen-1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Regina Mora</h5>
+                  <h6
+                    class="card-subtitle text-center mb-1 text-body-secondary">Gerente</h6>
+                  <p class="card-text">Some quick example text to build on the
+                    card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+              <!--Fin Card-->
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button"
+          data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button"
+          data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <!--Contacto-->
+    <div id="contacto" class="px-4 py-5 my-5 text-center">
+      <i class="bi bi-chat-left-text fs-1"></i>
+      <h3 class="display-5 fw-bold text-body-emphasis">Contactame</h3>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">¡Iniciemos un proyecto juntos!</p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+          <a href="mailto:anemontesdeoca0@gmail.com">
+            <button type="button" id="btn-contacto"
+              class="btn btn-primary btn-lg px-4 gap-3">Envia un correo</button>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="#"
+            class="nav-link px-2 text-body-secondary"><i
+              class="bi bi-linkedin"></i></a></li>
+        <li class="nav-item"><a href="#"
+            class="nav-link px-2 text-body-secondary"><i
+              class="bi bi-github"></i></a></li>
+        <li class="nav-item"><a href="#"
+            class="nav-link px-2 text-body"><i
+              class="bi bi-instagram"></i></a></li>
+      </ul>
+      <p class="text-center text-body-secondary">© 2024 Daniela Barrientos,
+        Inc</p>
+    </footer>
+
+    <!--Bootstrap-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
+
+    <!--Cdn Typewriter-->
+    <script
+      src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
+    <!--main JS-->
+    <script src="main.js"></script>
+
+  </body>
+</html>
