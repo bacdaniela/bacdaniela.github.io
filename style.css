@@ -3,35 +3,67 @@
 }
 
 header{
-    background-color: #d19aa8;
+    background-color: #f1ede1;
 }
 
 .nav-item a{
-    color: black;
+    color: #bc1c22;
 }
 
 .nav-item a:hover{
-    color: #ffeaf2;
+    color: #bc1c22;
+    text-decoration: overline;
 }
 
 #boton-perfil{
-    background-color: #f1396d;
+    background-color: #bc1c22;
 }
 
 #boton-perfil:hover{
-    background-color: #f1396d;
+    background-color: #a41419;
+    text-decoration: none;
 }
 
 #app{
-    color: #bd4b84; 
+    color: #a41419; 
+}
+
+.boton-cv{
+    background-color: #bc1c22;
+    color: white;
+    border: none;
+}
+
+.boton-cv:hover{
+    background-color: #a41419;
+    color: white;
 }
 
 .caja-habilidades{
-    background-color: #d19aa8;
+    background-color: #a41419;
+    color: white;
+    text-align: justify;
 }
 
+.btn-proyecto{
+    background-color: #bc1c22;
+    color: white;
+    border: none;
+}
+.btn-proyecto a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn-proyecto:hover{
+    background-color: #a41419;
+    color: white;
+    border: none;
+}
+
+
 .card .card-title{
-    color: #f1396d;
+    color: #bc1c22;
 }
 
 .card{
@@ -39,19 +71,21 @@ header{
 }
 
 #contacto{
-    background-color: #d19aa8;
-    color: ;
-}
-
-#btn-contacto{
-    border: none;
-    background-color: #f1396d;
-    color white;
-}
-
-#btn-contacto:hover{
-    background-color: #382f32;
+    background-color: #bc1c22;
     color: white;
+}
+
+.btn-contacto{
+    border: none;
+    background-color: #f1ede1;
+    color: #a41419;
+    font-weight: 500;
+}
+
+.btn-contacto:hover{
+    background-color: #a41419;
+    color: white;
+    font-weight: 500;
 }
 
 footer li a{
