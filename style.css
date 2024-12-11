@@ -6,6 +6,7 @@ header{
     background-color: #f1ede1;
 }
 
+
 .nav-item a{
     color: #bc1c22;
 }
@@ -13,6 +14,11 @@ header{
 .nav-item a:hover{
     color: #bc1c22;
     text-decoration: overline;
+}
+
+#home{
+    color: #bc1c22;
+    font-weight: 700;
 }
 
 #boton-perfil{
@@ -89,14 +95,11 @@ header{
 }
 
 footer li a{
-    color: #f1396d;
+    color: #a41419;
 }
 
-footer p{
-    color: #f1396d;
-}
-
-footer p{
+footer p a{
     text-decoration: none;
-    color: #f1396d;
+    color: #a41419;
+    font-weight: 500;
 }
