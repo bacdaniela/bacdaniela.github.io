@@ -55,7 +55,9 @@
           <div class="col-lg-6 mx-auto">
             <p class="lead mb-4">Ingeniera en Sistemas Computacionales graduada en el año 2020 con especialidad en Sistemas de Información para la Toma de Decisiones, con experiencia en desarrollo y mantenimiento de bases de datos, así como creación y diseño de páginas web utilizando diversas tecnológias cliente / servidor.</p>
             <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-              <button type="button" class="btn btn-outline-secondary btn-lg px-4 boton-cv">Perfil Profesional</button>
+              <button type="button" class="btn btn-outline-secondary btn-lg px-4 boton-cv" data-bs-toggle="modal" data-bs-target="#pdfModal">
+                Perfil Profesional
+              </button>
             </div>
           </div>
         </div>
@@ -218,6 +220,23 @@
           </div>
         </div>
       </div>
+
+      <!--Curriculum-->
+      <div class="modal fade" id="pdfModal" tabindex="-1" aria-labelledby="pdfModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <div id="curriculum" class="modal-header">
+              <h5 class="modal-title" id="pdfModalLabel">Perfil Profesional</h5>
+              <button type="button" class="btn-close" style="filter: invert(1);" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <!-- Iframe para mostrar el PDF -->
+              <iframe src="assets/Curriculum.pdf" width="100%" height="500px" style="border: none;"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </main>
 
     <!--Footer-->
@@ -236,6 +255,8 @@
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 
     <!--CDN Typewriter-->
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>

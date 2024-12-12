@@ -94,6 +94,11 @@ header{
     font-weight: 500;
 }
 
+#curriculum{
+    background-color: #a41419;
+    color: white;
+}
+
 footer li a{
     color: #a41419;
 }
